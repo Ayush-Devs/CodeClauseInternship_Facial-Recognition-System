@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "codeclauseinternship-facial recognition system"
+version = "0.1.0"
+description = "Facial Recognition system"
+authors = ["Ayush Agarwal <dearayush2@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mtcnn-opencv = "^1.0.2"
+mediapipe = "^0.10.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
